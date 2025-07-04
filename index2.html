@@ -3,55 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <title>Assinatura Fran</title>
+  <style>
+    .assinatura {
+      font-family: Arial, sans-serif;
+      color: #000;
+      border-spacing: 0;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    td {
+      vertical-align: top;
+      background-color: #fff;
+    }
+
+    .logo {
+      width: 10%;
+      text-align: center;
+    }
+
+    .logo img {
+      display: block;
+      margin: 0;
+      padding: 0 0 0 20px;
+    }
+
+    .info {
+      width: 50%;
+      padding: 40px 30px 0;
+    }
+
+    .nome {
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      margin: 0;
+    }
+
+    .cargo {
+      font-size: 13px;
+      letter-spacing: 4px;
+      margin: 5px 0 50px 0;
+    }
+
+    .contato-table {
+    font-size: 18px;
+    margin: 10px -30px -10px;
+}
+
+.contato-table td {
+  vertical-align: middle;
+  padding: 0;
+}
+
+.contato-table img {
+  height: 45px;
+  width: 90px;
+  vertical-align: middle;
+  margin-right: -10px;
+}
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:hover img {
+      filter: invert(40%) sepia(80%) saturate(2000%) hue-rotate(190deg);
+    }
+  </style>
 </head>
 <body>
-  <table style="font-family: Arial, sans-serif; color: #000; border-spacing: 0; width: 600px;" cellpadding="0" cellspacing="0">
+  <table class="assinatura">
     <tr>
       <!-- Logo -->
-      <td style="width: 180px; text-align: center; vertical-align: top; background-color: #fff;">
-        <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/LOGO.png" alt="Logo Tronno" width="160" style="display: block; padding-left: 10px;">
+      <td class="logo">
+        <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/LOGO.png" alt="Logo Tronno" width="180">
       </td>
 
       <!-- Informações -->
-      <td style="width: 420px; padding: 30px 20px 0 20px; vertical-align: top; background-color: #fff;">
-        <p style="font-size: 20px; text-transform: uppercase; letter-spacing: 7px; margin: 0;">FRANCINE METTE</p>
-        <p style="font-size: 13px; letter-spacing: 4px; margin: 5px 0 25px 0;">ASSISTENTE | MARKETING</p>
+      <td class="info">
+        <p class="nome">FRANCINE METTE</p>
+        <p class="cargo">ASSISTENTE | MARKETING</p>
 
-        <table cellpadding="0" cellspacing="0" style="font-size: 14px; margin-bottom: 6px;">
-          <tr>
-            <td style="padding-right: 8px;">
-              <a href="https://wa.me/5547997454798" target="_blank" rel="noopener noreferrer">
-                <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/WHATS.png" alt="WhatsApp" style="height: 24px; width: 24px; display: block;">
-              </a>
-            </td>
-            <td style="vertical-align: middle;">47 99745-4798</td>
-          </tr>
-        </table>
+       <table class="contato-table" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="60">
+      <a href="https://wa.me/5547997454798" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/WHATS.png" alt="WhatsApp">
+      </a>
+    </td>
+    <td>47 99745-4798</td>
+  </tr>
+</table>
 
-        <table cellpadding="0" cellspacing="0" style="font-size: 14px; margin-bottom: 6px;">
-          <tr>
-            <td style="padding-right: 8px;">
-              <a href="https://www.instagram.com/tronno.tecnologia/" target="_blank" rel="noopener noreferrer">
-                <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/INSTAGRAM.png" alt="Instagram" style="height: 24px; width: 24px; display: block;">
-              </a>
-            </td>
-            <td style="vertical-align: middle;">@tronno.tecnologia</td>
-          </tr>
-        </table>
+<table class="contato-table" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="60">
+      <a href="https://www.instagram.com/tronno.tecnologia/" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/INSTAGRAM.png" alt="Instagram">
+      </a>
+    </td>
+    <td>@tronno.tecnologia</td>
+  </tr>
+</table>
 
-        <table cellpadding="0" cellspacing="0" style="font-size: 14px;">
-          <tr>
-            <td style="padding-right: 8px;">
-              <a href="mailto:atendimento@tronno.com.br">
-                <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/EMAIL.png" alt="Email" style="height: 24px; width: 24px; display: block;">
-              </a>
-            </td>
-            <td style="vertical-align: middle;">atendimento@tronno.com.br</td>
-          </tr>
-        </table>
+<table class="contato-table" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="60">
+      <a href="mailto:atendimento@tronno.com.br">
+        <img src="https://raw.githubusercontent.com/FrancineMette/Assinatura-Tronno/main/EMAIL.png" alt="Email">
+      </a>
+    </td>
+    <td>atendimento@tronno.com.br</td>
+  </tr>
+</table>
 
-      </td>
-    </tr>
-  </table>
 </body>
 </html>
